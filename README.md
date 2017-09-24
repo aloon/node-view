@@ -1,12 +1,13 @@
 build
 
-```bash
-$ docker build -t node-view .
-$ docker run -p 3000:3000 node-view
+```sh
+git clone git@github.com:aloon/node-view.git
+docker build -t node-view .
+docker run -p 3000:3000 node-view
 ```
 
 
 only exec
-```bash
-$ docker run -p 3000:3000 aloon/node-view
+```sh
+docker run -p 3000:3000 aloon/node-view
 ```
